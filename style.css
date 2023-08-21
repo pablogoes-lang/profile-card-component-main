@@ -1,17 +1,17 @@
 body{
-  background-color: hsl(185, 75%, 39%)
-
-
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Kumbh Sans', sans-serif;
+ overflow: hidden;
 
 }
 .card{
 background-color: white;
-position: relative;
+position: absolute;
 height: 50vh;
 width: 25vw;
 border-radius: 25px;
-top: 15vh;
 left: 38vw;
+bottom: 40vh;
 
 }
 #victor{
@@ -30,8 +30,56 @@ border: solid 6px whitesmoke
 position: relative;
 bottom: 10.5vh;
 left: 9.5vh;
-top: vw;
+
 
 
 }
     
+td,th{
+  padding-left: 3vw;
+
+
+}
+span{
+  font-weight: 400;
+  color: gray;
+}
+p,td{
+color: gray;
+position: relative;
+left: vw;
+}
+table{
+position: relative;
+right: 10vh;
+font-size: 30px;
+
+}
+p{
+  position: relative;
+  left: 5.5vw;
+
+}
+#circulo1{
+  position: relative;
+  top: 35vh;
+right:15 ;
+
+
+
+} 
+#circulo2 {
+position: relative;
+top: 40vh;
+left: 50vw;
+
+}
+hr{
+position: relative;
+right: 4.9vw;
+
+}
+.tudo{
+  position: relative;
+  bottom: 65vh;
+}
